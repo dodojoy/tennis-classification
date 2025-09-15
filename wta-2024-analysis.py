@@ -6,3 +6,12 @@ df = pd.read_csv(url)
 
 print("Dimensões do dataset:", df.shape)
 print("Colunas:", df.columns[:20])  # printando as primeiras 20 colunas
+
+print("Primeiras 5 linhas do dataset:")
+print(df.head())
+
+print("\nInformações do dataset:")
+print(df.info())
+
+print("\nEstatísticas descritivas:")
+print(df.describe())
